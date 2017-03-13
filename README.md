@@ -1,4 +1,7 @@
 # core-sql
+- **Name:** Monica Williams
+- **Github handle:** Moniarchy
+- **Team name:** smug-boa
 
 ### Day 1: SQL Basics & Advanced SQL Queries
 - [ ] Complete the [SQL Basics course](https://www.khanacademy.org/computing/computer-programming/sql#sql-basics)
