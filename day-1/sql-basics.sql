@@ -61,7 +61,13 @@ You should have a table for all the items in your store, and at least 5 columns 
 You should sell at least 15 items, and use select statements to order your items by price and show at least one statistic about the items.
 */
 
-CREATE TABLE store (id INTEGER, name TEXT, price INTEGER, quantity INTEGER, sku INTEGER);
+CREATE TABLE store (
+  id INTEGER,
+  name TEXT,
+  price INTEGER,
+  quantity INTEGER,
+  sku INTEGER
+);
 
 INSERT INTO store VALUES
 (1, "salmon", 20, 20, 820485),
