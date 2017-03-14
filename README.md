@@ -4,8 +4,8 @@
 - **Team name:** smug-boa
 
 ### Day 1: SQL Basics & Advanced SQL Queries
-- [ ] Complete the [SQL Basics course](https://www.khanacademy.org/computing/computer-programming/sql#sql-basics)
-- [ ] Complete the [Advanced SQL queries course](https://www.khanacademy.org/computing/computer-programming/sql#more-advanced-sql-queries)
+- [X] Complete the [SQL Basics course](https://www.khanacademy.org/computing/computer-programming/sql#sql-basics)
+- [X] Complete the [Advanced SQL queries course](https://www.khanacademy.org/computing/computer-programming/sql#more-advanced-sql-queries)
 
 ### Day 2: Relational Queries
 - [ ] Complete the [Relational Queries course](https://www.khanacademy.org/computing/computer-programming/sql#relational-queries-in-sql)
