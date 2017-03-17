@@ -42,14 +42,14 @@ INSERT INTO persons (name, age) VALUES ("Lucas", 1);
 INSERT INTO hobbies (person_id, name) VALUES (6, "escaping");
 
 SELECT persons.name, hobbies.name
-FROM persons
-JOIN hobbies
-ON persons.id = hobbies.person_id;
+  FROM persons
+  JOIN hobbies
+    ON persons.id = hobbies.person_id;
 
 SELECT persons.name, hobbies.name
-FROM persons
-JOIN hobbies
-ON persons.id = hobbies.person_id;
+  FROM persons
+  JOIN hobbies
+    ON persons.id = hobbies.person_id;
 
 --------------------------------------------------------------------------------
 
@@ -89,16 +89,16 @@ INSERT INTO orders (customer_id, item, price)
 */
 
 SELECT customers.name, customers.email, orders.item, orders.price
-FROM customers
-LEFT OUTER JOIN orders
-ON orders.customer_id = customers.id;
+  FROM customers
+  LEFT OUTER JOIN orders
+    ON orders.customer_id = customers.id;
 
 SELECT customers.name, customers.email, SUM(orders.price) AS total_money_spent
-FROM customers
-LEFT OUTER JOIN orders
-ON orders.customer_id = customers.id
-GROUP BY email
-ORDER BY price DESC;
+  FROM customers
+  LEFT OUTER JOIN orders
+    ON orders.customer_id = customers.id
+    GROUP BY email
+    ORDER BY price DESC;
 
 --------------------------------------------------------------------------------
 
@@ -134,9 +134,9 @@ INSERT INTO movies
 */
 
 SELECT movies.title, sequel.title
-FROM movies
-LEFT OUTER JOIN movies sequel
-ON movies.sequel_id = sequel.id;
+  FROM movies
+  LEFT OUTER JOIN movies sequel
+    ON movies.sequel_id = sequel.id;
 
 --------------------------------------------------------------------------------
 
@@ -191,13 +191,13 @@ INSERT INTO friends (person1_id, person2_id)
 */
 
 SELECT persons.fullname, hobbies.name
-FROM persons
-JOIN hobbies
-ON persons.id = hobbies.person_id;
+  FROM persons
+  JOIN hobbies
+    ON persons.id = hobbies.person_id;
 
 SELECT a.fullname, b.fullname
-FROM friends
-JOIN persons a
-ON a.id = friends.person1_id
-JOIN persons b
-ON b.id = friends.person2_id;
+  FROM friends
+  JOIN persons a
+    ON a.id = friends.person1_id
+  JOIN persons b
+    ON b.id = friends.person2_id;
