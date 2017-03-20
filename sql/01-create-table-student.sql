@@ -5,4 +5,8 @@
 - write the SQL in the file `sql/01-create-table-student.sql`
 */
 
-CREATE TABLE student ( id SERIAL PRIMARY KEY, name VARCHAR(255), grade INTEGER );
+CREATE TABLE student (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  grade INTEGER
+);
